@@ -1,0 +1,67 @@
+header {
+    background-color: rgb(145, 229, 145);
+    height: 45px;
+    
+    
+}
+
+.container{
+    background-color: rgb(2, 138, 2);
+    height: 23px;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
+    
+}
+header nav ul li {
+    list-style: none;
+    
+}
+
+img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.BuscaProdutos{
+    font-weight: bold;
+}
+.BuscaProdutos nav ul{
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    
+}
+.BuscaProdutos nav ul li{
+    width: 140px;
+    height: 45px;
+    text-align: center;
+    border-radius: 10px;
+    list-style: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.liImgs img{
+    width: 35px;
+    height: 35px;
+
+
+}
+
+.prodIMG{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 2px;
+
+}
+.prodIMG p {
+    padding-top:15px ;
+    margin-left: 5px;
+}
+

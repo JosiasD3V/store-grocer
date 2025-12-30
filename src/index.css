@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.CartProdutos img{
+  height: 150px;
+  width: 150px;
+  border-radius: 15px;
+  box-shadow: 1px 2px 6px;
+  margin-left: 25px;
+}
+
+.CartProdutos{
+  width: 180px;
+  height: 290px;
+}
