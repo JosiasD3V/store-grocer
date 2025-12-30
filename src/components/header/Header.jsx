@@ -1,6 +1,6 @@
 import React from 'react'
 import './header.css'
-import headerIMG from '../../assets/headerIMG.png'
+import headerIMG from '../../assets/headerimg.png'
 import carne from '../../assets/carne.png'
 import refrigerantes from '../../assets/refrigerantes.png'
 import frutas from '../../assets/frutas.png'
