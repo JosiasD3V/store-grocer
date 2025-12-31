@@ -40,11 +40,15 @@ img{
 }
 .BuscaProdutos nav ul li{
     width: 140px;
-    height: 45px;
+    height: 50px;
     text-align: center;
     border-radius: 10px;
     list-style: none;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    box-shadow: 0 4px 10px rgba(3,3,4,0.1);
+    transition: 0.3s;
+}
+.BuscaProdutos nav ul li:hover{
+    transform: scale(1.03);
 }
 
 .liImgs img{

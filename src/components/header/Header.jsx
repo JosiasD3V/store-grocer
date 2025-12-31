@@ -70,7 +70,7 @@ export const Header = () => {
                 <li className='liImgs'>
                      <div className='prodIMG'>
                     <img src={refrigerantes} alt="refrigerantes" />
-                    <p>Bebidas</p>
+                    <p onClick={()=> console.log('clicou')}>Bebidas</p>
                     </div>
                 </li>
             </ul>

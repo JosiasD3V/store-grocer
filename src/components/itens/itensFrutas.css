@@ -4,4 +4,48 @@
     flex-wrap: wrap;
     padding-top: 25px;
     text-align: center;
+    gap: 12px;
+}
+
+.CartProdutos img{
+  height: 150px;
+  width: 100%;
+  border-radius: 16px;
+}
+
+.CartProdutos{
+    display: flex;
+    background: #fff;
+    flex-direction: column;
+    width: 180px;
+    height: 290px;
+    margin: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border-radius: 16px;
+    transition: 0.3s;
+
+
+.CartProdutos div {
+  margin-top: auto;
+}    
+  
+}
+.CartProdutos:hover{
+    transform: scale(1.03);
+}
+
+
+.CartProdutos button{
+    background: #22c55e;
+    border:none;
+    color:white;
+    padding: 8px;
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    padding-bottom: 0;
+}
+button:hover {
+  background: #16a34a;
 }
