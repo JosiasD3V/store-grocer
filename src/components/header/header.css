@@ -29,10 +29,12 @@ img{
 
 .BuscaProdutos{
     font-weight: bold;
+    
 }
 .BuscaProdutos nav ul{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     cursor: pointer;
     
 }
