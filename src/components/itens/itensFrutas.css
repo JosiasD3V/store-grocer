@@ -1,5 +1,7 @@
 
 .FrutasCart{
     display: flex;
+    flex-wrap: wrap;
     padding-top: 25px;
+    text-align: center;
 }

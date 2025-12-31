@@ -5,7 +5,7 @@ import carne from '../../assets/carne.png'
 import refrigerantes from '../../assets/refrigerantes.png'
 import frutas from '../../assets/frutas.png'
 import pao from '../../assets/pao.png'
-
+import allitens from '../../assets/all.png'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMagnifyingGlass, faCoffee } from '@fortawesome/free-solid-svg-icons'
@@ -43,6 +43,12 @@ export const Header = () => {
     <div className='BuscaProdutos'>
         <nav>
             <ul>
+                <li className='liImgs'>
+                    <div className='prodIMG'>
+                    <img src={allitens} alt="carne" />
+                    <p>Todos</p>
+                    </div>
+                </li>
                 <li className='liImgs'>
                     <div className='prodIMG'>
                     <img src={carne} alt="carne" />
