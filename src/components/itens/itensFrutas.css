@@ -8,15 +8,14 @@
 }
 
 .CartProdutos img{
-  height: 150px;
+  height: 140px;
   width: 100%;
   border-radius: 16px;
 }
 .CartProdutos{
     display: flex;
-    
-    width: 180px;
-    height: 290px;
+    width: 170px;
+    height: 280px;
     margin: 10px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     border-radius: 16px;
@@ -45,7 +44,7 @@
     padding-bottom: 0;
 }
 button:hover {
-  background: #16a34a;
+  background: #a31f16;
 }
 
 .container2{

@@ -45,7 +45,7 @@ const Itens = ({categoria}) => {
       descricao: "Uvas frescas,naturais.",
       preco: 2.99,
     },
-    { id: 3, categoria: "fruta", img: fruta3, nome: "Uva", preco: 2.99 },
+    { id: 3, categoria: "fruta", img: fruta3, nome: "Banana", preco: 4.99 },
     { id: 4, categoria: "fruta", img: fruta4, nome: "Uva", preco: 2.99 },
     { id: 5, categoria: "fruta", img: fruta5, nome: "Uva", preco: 2.99 },
     { id: 6, categoria: "fruta", img: fruta6, nome: "Uva", preco: 2.99 },

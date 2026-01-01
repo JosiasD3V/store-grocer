@@ -8,7 +8,6 @@ import pao from '../../assets/pao.png'
  import { FontAwesomeIcon } from '@fortawesome/react-fontawesome' 
  import { faMagnifyingGlass, faCoffee } from '@fortawesome/free-solid-svg-icons'
 
-
 const Header = ({ setCategoria }) => {
   return (
     <>
