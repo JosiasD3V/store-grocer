@@ -1,15 +1,17 @@
 
 import './App.css'
-import { Header } from './components/header/Header'
-import ItensFrutas from './components/itens/ItensFrutas'
+import { useState } from 'react';
+import Header  from './components/header/Header'
+import Itens from './components/itens/Itens'
 
 function App() {
-  
 
+
+  const [categoria, setCategoria] = useState("todos");
   return (
     <>
-      <Header/>
-      <ItensFrutas/>
+      <Header setCategoria={setCategoria} />
+      <Itens categoria={categoria} />
     </>
   )
 }
